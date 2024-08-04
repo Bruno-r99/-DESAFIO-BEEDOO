@@ -9,7 +9,7 @@ Eu como usuário da frente de cadastro de curso
 Quero realizar cadastro e exclusão de curso 
 Para atender alunos da universidade metropolitana de Cubatão 
 
-Premissas 
+Premissas: 
 1- Desenvolvedores e QA com acessos necessários para iniciar o desenvolvimento e testes. 
 2- Infraestrutura e pipelines criados no ambiente. 
 3- Desenho de solução detalhado e alinhado com arquitetura. 
