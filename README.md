@@ -4,7 +4,7 @@ Link dos Cenarios e grafico de report:https://docs.google.com/spreadsheets/d/1dr
 
 Link das evidências em MP4: https://drive.google.com/drive/folders/1_EuWNCdByC_wqjpptsNF2EViYJ0Ev4X_?usp=sharing 
 
-  História 
+História: 
 
 Eu como usuário da frente de cadastro de curso 
 Quero realizar cadastro e exclusão de curso 
