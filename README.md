@@ -27,8 +27,8 @@ Plano de Teste - Sistema de Cadastro de Usuários
 ■ Validação de exclusão de curso. 
 ■ Validação de curso de exclusão de curso sem confirmação. 
 ■ Cadastrar curso com sucesso. 
-■ Validação de cadastro sem preenchimento de todos os campos 
-■ Validação da url da imagem de capa
+■ Validação de cadastro sem preenchimento de todos os campos.
+■ Validação da url da imagem de capa.
 ■ Validação de datas. 
 
 3. Metodologia e Ferramentas: 
@@ -36,14 +36,14 @@ Plano de Teste - Sistema de Cadastro de Usuários
 ➢ Ferramentas: Postman para validação de API, Cypress para automatizar o fluxo front end, e excell. 
 
 4. Cenario de Teste: 
-➢ Cenario de Teste: Listar todos os cursos disponíveis 
-➢ Cenario de Teste: Listagem de cursos não há cursos cadastrados 
-➢ Cenario de Teste: Exclusão de um curso 
-➢ Cenario de Teste: Tentativa de exclusão de um curso sem confirmação 
-➢ Cenario de Teste: Cadastrar um curso com sucesso 
-➢ Cenario de Teste: Tentativa de cadastrar um curso sem preencher todos os campos obrigatórios 
-➢ Cenario de Teste: Validação da URL da imagem de capa 
-➢ Cenario de Teste: Validação de datas (Data de início após a data de fim)
+➢ Cenario de Teste: Listar todos os cursos disponíveis.
+➢ Cenario de Teste: Listagem de cursos não há cursos cadastrados. 
+➢ Cenario de Teste: Exclusão de um curso. 
+➢ Cenario de Teste: Tentativa de exclusão de um curso sem confirmação. 
+➢ Cenario de Teste: Cadastrar um curso com sucesso. 
+➢ Cenario de Teste: Tentativa de cadastrar um curso sem preencher todos os campos obrigatórios. 
+➢ Cenario de Teste: Validação da URL da imagem de capa. 
+➢ Cenario de Teste: Validação de datas (Data de início após a data de fim).
 
 5. Cronograma de Testes: 
 ➢ Semana 1: Preparação do ambiente de testes, criação dos Cenarios de teste e revisão da documentação. 
@@ -62,20 +62,26 @@ Plano de Teste - Sistema de Cadastro de Usuários
 BUG: 
 Foram encontrados 6 BUGS.
 
-BUG 1 Resumo - Mesmo com nenhum cadastro a mensagem "Nenhum curso disponível" não é exibida na tela. Descrição: Ao validar mensagem " Nenhum curso disponivél" ao clicar na lista de curso, foi detectado que não é retornado nenhuma mensagem.
+BUG 1 Resumo - Mesmo com nenhum cadastro a mensagem "Nenhum curso disponível" não é exibida na tela. 
+Descrição: Ao validar mensagem " Nenhum curso disponivél" ao clicar na lista de curso, foi detectado que não é retornado nenhuma mensagem.
 
-BUG 2 Resumo - Quando clico no botão "excluir curso" uma mensagem de confirmação "Curso excluído com sucesso!" aparece, porém o curso continua na tela. Descrição: Ao clicar no botão excluir curso mesmo aparecendo a mensagem "Curso excluido com sucesso" o curso não é excluido da tela.
+BUG 2 Resumo - Quando clico no botão "excluir curso" uma mensagem de confirmação "Curso excluído com sucesso!" aparece, porém o curso continua na tela. 
+Descrição: Ao clicar no botão excluir curso mesmo aparecendo a mensagem "Curso excluido com sucesso" o curso não é excluido da tela.
 
-BUG 3 Resumo - Deveria aparecer na tela ao clicar no botão excluir curso a opção de excluir SIM/NÃO. Descrição: Ao clicar na opção excluir curso e tentar reverter a exclusão deviria aparecer a opção SIM/NÃO na tela. 
+BUG 3 Resumo - Deveria aparecer na tela ao clicar no botão excluir curso a opção de excluir SIM/NÃO. 
+Descrição: Ao clicar na opção excluir curso e tentar reverter a exclusão deviria aparecer a opção SIM/NÃO na tela. 
 
-BUG 4 Resumo - Mesmo não preenchendo alguns campos obrigatórios ele gera um cadastro. Descrição: Mesmmo que ao deixar um campo em branco ou passar um dado inválido o sistema cria um novo curso na lista. 
+BUG 4 Resumo - Mesmo não preenchendo alguns campos obrigatórios ele gera um cadastro. 
+Descrição: Mesmmo que ao deixar um campo em branco ou passar um dado inválido o sistema cria um novo curso na lista. 
 
-BUG 5 Resumo - Mesmo não passando a URL ele ainda cria um cadastro. Descrição: Ao tentar criar um curso sem a URL ele ainda cria um cadastro. 
+BUG 5 Resumo - Mesmo não passando a URL ele ainda cria um cadastro. 
+Descrição: Ao tentar criar um curso sem a URL ele ainda cria um cadastro. 
 
-BUG 6 Resumo - Mesmo inserindo uma data de conclusão anterior a de ínicio o cadastro ainda é realizado. Descrição: Ao tentar criar um cadastro com a anterior a data atual o sistema não deveria criar um cadastro mesmo assim ele cria com sucesso. 
+BUG 6 Resumo - Mesmo inserindo uma data de conclusão anterior a de ínicio o cadastro ainda é realizado. 
+Descrição: Ao tentar criar um cadastro com a anterior a data atual o sistema não deveria criar um cadastro mesmo assim ele cria com sucesso. 
 
 Vulnerabilidade do sistema: 
-1- Sistema não aparece mensagem de nemhum curso disponivél 
-2- Curso não é excluido da listagem de curso 
-3- Não foi identificado a opção SIM/NÃO para excluir curso
+1- Sistema não aparece mensagem de nemhum curso disponivél. 
+2- Curso não é excluido da listagem de curso.
+3- Não foi identificado a opção SIM/NÃO para excluir curso.
 
